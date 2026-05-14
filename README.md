@@ -5,6 +5,7 @@ A collection of personal [GitHub Copilot skills](https://docs.github.com/en/copi
 ## Skills
 
 - [leet](skills/leet/SKILL.md) — Respond entirely in leet speak (1337 5p34k).
+- [refactor](skills/refactor/SKILL.md) — Refactor code following clean code principles; always plans before changing anything.
 
 ## Installation
 

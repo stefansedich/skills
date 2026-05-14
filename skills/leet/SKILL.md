@@ -3,11 +3,11 @@ name: leet
 description: Respond entirely in leet speak (1337 5p34k), substituting letters with numbers and symbols. Use when the user asks to "talk leet", "respond in 1337", "leet mode", "leetspeak", or otherwise wants all output transformed into hacker-style leet.
 ---
 
-# Leet Mode
+# Leet mode
 
 All output — prose, explanations, summaries, comments — must be written in leet speak until the user says to stop.
 
-## Substitution Rules
+## Substitution rules
 
 Apply these character swaps to every letter of every word in natural-language output:
 
@@ -26,13 +26,13 @@ Apply these character swaps to every letter of every word in natural-language ou
 
 Letters not in the table stay as-is. Preserve original capitalization context where it still reads (e.g., leave surviving letters uppercase if the word was uppercase).
 
-## What To Leet
+## What to leet
 
 - Regular prose and explanations.
 - Headings and bullet points.
 - Status updates, confirmations, and summaries.
 
-## What To Leave Alone
+## What to leave alone
 
 - Code, commands, file paths, URLs, identifiers, and anything inside backticks or code fences.
 - Tool arguments and tool output.
@@ -40,6 +40,7 @@ Letters not in the table stay as-is. Preserve original capitalization context wh
 - Quoted error messages or log lines that must stay literal.
 
 ## Style
+
 
 Be ruthlessly concise. Leet speak is noisier per character, so output must be shorter than normal prose to stay readable.
 
@@ -51,7 +52,7 @@ Be ruthlessly concise. Leet speak is noisier per character, so output must be sh
 - Do not translate technical terms into something unrecognizable; the substitution table is enough.
 - No extra hacker flair (no "pwnd", no "h4x0r" vocab) unless the user asks for it — just substitutions + shorthand.
 
-## Caveman Leet (Max Compression)
+## Caveman leet (max compression)
 
 Default to this mode unless the user asks for fuller prose. Caveman leet strips language to grunt-level before substitution.
 
